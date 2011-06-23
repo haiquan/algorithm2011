@@ -1,0 +1,25 @@
+﻿Build started 2011/6/23 15:41:09.
+     1>Project "E:\code\vs2010code\algorithn2011\algorithn2011\algorithn2011.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\algorithn2011.unsuccessfulbuild".
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code\vs2010code\algorithn2011\Debug\algorithn2011.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\algorithn2011.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\code\vs2010code\algorithn2011\Debug\algorithn2011.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code\vs2010code\algorithn2011\Debug\algorithn2011.lib" /MACHINE:X86 Debug\algorithn2011.exe.embed.manifest.res
+         Debug\hello.obj
+         Debug\hello.obj
+         Debug\main.obj
+         Debug\main.obj
+     1>Debug\hello.obj : warning LNK4042: object specified more than once; extras ignored
+     1>Debug\main.obj : warning LNK4042: object specified more than once; extras ignored
+     1>MSVCRTD.lib(crtexe.obj) : error LNK2019: unresolved external symbol _main referenced in function ___tmainCRTStartup
+     1>E:\code\vs2010code\algorithn2011\Debug\algorithn2011.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "E:\code\vs2010code\algorithn2011\algorithn2011\algorithn2011.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.85
